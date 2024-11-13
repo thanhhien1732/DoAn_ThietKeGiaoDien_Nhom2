@@ -1,0 +1,127 @@
+.embed-image {
+    background: url(../image/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    position: relative;
+    z-index: 0;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.embed-image h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.embed-image p {
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.hero-overlay {
+    background: rgba(29, 42, 55, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.dropdown-item.active {
+    color: #00a63f !important;
+}
+
+.dropdown-toggle-scrolled::after {
+    color: #00a63f !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: none;
+    background-clip: border-box;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    border: none;
+}
+
+a.post-thumbnail {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.post-thumbnail img {
+    height: auto;
+    transition: 0.3s ease-in-out;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card:hover img {
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.pagination-style {
+    margin-top: 2em;
+    display: block;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+}
+
+span.page-numbers {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 600;
+    background-color: #009f4d;
+    color: #fff;
+    border: 2px solid #009f4d;
+}
+
+a.page-numbers {
+    display: inline-block;
+    color: #666;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 600;
+    border: 2px solid #eee;
+}
+
+a.page-numbers:hover {
+    background-color: #009f4d;
+    color: #fff !important;
+    border: 2px solid #009f4d;
+}
+
+ul.page-numbers li:last-child a {
+    width: inherit;
+    padding: 0 15px;
+}
