@@ -520,8 +520,6 @@ body.search-active {
     }
 }
 
-
-
 /* Carousel CSS */
 .carousel-wrap {
     position: relative;
@@ -556,19 +554,19 @@ body.search-active {
 }
 
 .bg1 {
-    background: url(../image/b1.jpg);
+    background: url(../img/b1.jpg);
 }
 
 .bg2 {
-    background: url(../image/b2.jpg);
+    background: url(../img/b2.jpg);
 }
 
 .bg3 {
-    background: url(../image/b3.jpg);
+    background: url(../img/b3.jpg);
 }
 
 .bg4 {
-    background: url(../image/b4.jpg);
+    background: url(../img/b4.jpg);
 }
 
 .bg-custom {
@@ -976,7 +974,7 @@ body.search-active {
     height: 4px;
     overflow: hidden;
     font-size: 0.75rem;
-    background-color: var(--bg-grey);
+    background-color: var(#f7f7f7);
     border-radius: 0.25rem;
 }
 
@@ -1275,7 +1273,7 @@ ul.blog-meta li {
 
 /* Project CSS */
 .project {
-    background-image: url(../image/map.png);
+    background-image: url(../img/map.png);
     background-color: #151421;
     background-size: contain;
     background-repeat: no-repeat;

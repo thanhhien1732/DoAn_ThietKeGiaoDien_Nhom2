@@ -1,5 +1,5 @@
 .embed-image {
-  background: url(../image/b1.jpg);
+  background: url(../img/b1.jpg);
   background-size: cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   position: relative;
@@ -121,7 +121,7 @@ p {
 }
 
 .quote-info {
-  background: url(../image/bg1.jpg);
+  background: url(../img/bg1.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
